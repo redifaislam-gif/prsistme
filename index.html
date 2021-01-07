@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+<div id="loading"></div>
 
 <header>
 <div class="navbar" id="header-section">
@@ -803,6 +803,7 @@ Newyork, USA
 	<a href="#header-section" class="scrollup">
               <i class="fa fa-chevron-up"></i>
                   </a>
+				  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.map"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -818,6 +819,14 @@ scrollUp.classList.add("active");
 scrollUp.classList.remove("active");
 }
 });
+</script>
+<script type="text/javascript">
+
+setTimeout(function(){
+
+$('#loading').fadeToggle();
+},3000);
+
 </script>
 </body>
 </html>
