@@ -1,4 +1,19 @@
-
+$(document).ready(function(){
+	
+	
+//stikey
+	$(".js--clint-section").waypoint(function(direction){
+		
+	if(direction== "down"){
+		$(".navbar").addClass("stikey");
+	}else{
+	$(".navbar").removeClass("stikey");	
+	}	
+		
+	});
+	//protfolio
+	var mixer=mixitup('.container');
+});
 
 
 

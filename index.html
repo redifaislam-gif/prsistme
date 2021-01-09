@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon"type="image/x-icon"href="img/m1.jpg">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet"type="text/css"href="css/bootstrap.min.css">
-<link rel="stylesheet"type="text/css"href="css/responsive.css">
-<link rel="stylesheet"type="text/css"href="css/style.css">
+<link rel="stylesheet"type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet"type="text/css" href="css/responsive.css">
+<link rel="stylesheet"type="text/css" href="css/style.css">
 <title>PersistMe</title>
 </head>
 
@@ -20,7 +21,7 @@
 <img src="img/logo.png" class="logo">
 <nav>
 <ul class="main-nav">
-<li class="active"><a href="" style="color:#0D83FF; font-weight:bold;">HOME</a></li>
+<li class="active"><a href="#" style="color:#0D83FF; font-weight:bold;">HOME</a></li>
 <li><a href="#ser">service</a></li>
 <li><a href="#pri">Pricing</a></li>
 <li><a href="#abo">About us</a></li>
@@ -34,11 +35,11 @@
 <div id="myNav" class="overlay">
 <a href="javascript:void()" onclick="closeNav()" class="closebtn">&times;</a>
 <div class="overlay-content">
-<a onclick="closeNav()" href="">home</a>
-<a onclick="closeNav()" href="#">service</a>
-<a onclick="closeNav()" href="#">Pricing</a>
-<a onclick="closeNav()" href="#">About us</a>
-<a onclick="closeNav()" href="#">Contact</a>
+<a onclick="closeNav()" href="#">home</a>
+<a onclick="closeNav()" href="#ser">service</a>
+<a onclick="closeNav()" href="#pri">Pricing</a>
+<a onclick="closeNav()" href="#abo">About us</a>
+<a onclick="closeNav()" href="#con">Contact</a>
 
 
 
@@ -122,7 +123,7 @@ your Local Storage</h1>
 </section>
 </header>
 
-<section class="clint-section">
+<section class="clint-section  js--clint-section">
 <div class="container">
 <div class="row clint-logo">
 
@@ -806,6 +807,7 @@ Newyork, USA
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
 <script src="js/main.js"></script>
 
 <script>
@@ -827,5 +829,7 @@ $('#loading').fadeToggle();
 },3000);
 
 </script>
+
+
 </body>
 </html>
